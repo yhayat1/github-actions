@@ -17,5 +17,8 @@ jobs:
       - name: List files in current directory
         run: ls -la
 
+      - name: Display the content of the repo's ReadMe.md file
+        run: cat ReadME.md
+
       - name: Say Hello
         run: echo "🎉 Hello from GitHub Actions! A push just happened."
